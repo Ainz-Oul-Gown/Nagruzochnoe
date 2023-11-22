@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Нагрузочное тестирование</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="leftEl">
+        <h1>Нагрузочное тестирование сайтов</h1>
+        <button type="button" id="btn" onclick="onClickSlider()">Открыть задание</button>
+        <div class="container">
+            <form id="loadTestForm">
+                <label for="urlInput">Ссылка на сайт:</label>
+                <input type="text" id="urlInput" onfocus="onFocus()" name="url" required>
+                <br>
+                <label for="testCountInput">Количество тестов:</label>
+                <input type="number" onfocus="onFocus()" id="testCountInput" name="testCount" required>
+                <br>
+                <button type="button" onclick="runTests()">Начать тестирование</button>
+            </form>
+        </div>
+        <div id="results">
+            <!-- Здесь будут отображаться результаты тестирования -->
+        </div>
+    </div>
+      <div class="rightEl">
+          <p>
+              sdfsdffsfdsfsdfsd
+          </p>
+      </div>
+      <script src="scripts.js">
+      </script>
+</body>
+</html>
